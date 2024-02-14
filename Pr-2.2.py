@@ -6,7 +6,6 @@ if x >= y:
 else:
     max = y
     min = x
-
 print("1) z =", (min + 0.5)/(1+max**2))
 if x >= 0:
     print("2) z =",max)
