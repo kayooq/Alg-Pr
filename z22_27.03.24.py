@@ -1,8 +1,8 @@
 i=1
 e = 0.001
-x = [1]
-x.append((2-x[i-1]**3)/5)
-while abs(x[i]-x[i-1])>e:
+y = [0]
+y.append((y[i-1]+1)/(y[i-1]+2))
+while abs(y[i]-y[i-1])>e:
     i+=1
-    x.append((2-x[i-1]**3)/5)
-print(x[i])
+    y.append((y[i-1]+1)/(y[i-1]+2))
+print(y[i])
